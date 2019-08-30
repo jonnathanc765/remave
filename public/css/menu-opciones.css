@@ -1,0 +1,43 @@
+.menu-opciones {
+  background-color: #2A3F54;
+  padding: 0 !important;
+  max-width: 100px;
+  width: 70px;
+  min-width: 70px;
+  position: relative;
+  z-index: 10;
+}
+.menu-opciones ul {
+  list-style: none;
+  padding-left: 0;
+}
+.menu-opciones ul li {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0;
+  text-align: center;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.menu-opciones ul li a {
+  color: #E7E7E7;
+}
+.menu-opciones ul li a i {
+  display: block;
+  font-size: 20px;
+}
+.menu-opciones ul li a:hover {
+  text-decoration: none;
+}
+.menu-opciones ul li:hover {
+  background: #1b344c;
+}
+.menu-opciones .logo-aside {
+  width: 100%;
+}
+.menu-opciones .logo-aside img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/*# sourceMappingURL=menu-opciones.css.map */

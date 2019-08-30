@@ -1,0 +1,16 @@
+{
+    "/js/dashboard/DataTables.js": "/js/dashboard/DataTables.js",
+    "/js/dashboard/dashboard-finance.js": "/js/dashboard/dashboard-finance.js",
+    "/js/dashboard/dashboard-influencer.js": "/js/dashboard/dashboard-influencer.js",
+    "/js/dashboard/dashboard-sales.js": "/js/dashboard/dashboard-sales.js",
+    "/js/dashboard/edit-post.js": "/js/dashboard/edit-post.js",
+    "/js/dashboard/google_maps.js": "/js/dashboard/google_maps.js",
+    "/js/dashboard/jvectormap.custom.js": "/js/dashboard/jvectormap.custom.js",
+    "/js/dashboard/main.js": "/js/dashboard/main.js",
+    "/js/main.js": "/js/main.js",
+    "/css/dashboard/dashboard.css": "/css/dashboard/dashboard.css",
+    "/css/style.css": "/css/style.css",
+    "/js/vue/bundle.js": "/js/vue/bundle.js",
+    "/js/vue/cart/bundle.js": "/js/vue/cart/bundle.js",
+    "/js/vue/edit/bundle.js": "/js/vue/edit/bundle.js"
+}

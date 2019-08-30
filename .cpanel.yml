@@ -1,0 +1,17 @@
+---
+deployment:
+ tasks:
+  - export DEPLOYPATH=/home/myshop/public_html
+  - /bin/cp -r /home/myshop/myshopp/public/css $DEPLOYPATH
+  - /bin/cp -r /home/myshop/myshopp/public/DataTables $DEPLOYPATH
+  - /bin/cp -r /home/myshop/myshopp/public/fonts $DEPLOYPATH
+  - /bin/cp -r /home/myshop/myshopp/public/img $DEPLOYPATH
+  - /bin/cp -r /home/myshop/myshopp/public/js $DEPLOYPATH
+  - /bin/cp -r /home/myshop/myshopp/public/svg $DEPLOYPATH
+  - /bin/cp -r /home/myshop/myshopp/public/vendors $DEPLOYPATH
+  - /bin/cp -r /home/myshop/myshopp/public/webfonts $DEPLOYPATH
+  - /bin/cp /home/myshop/myshopp/public/.gitignore $DEPLOYPATH
+  - /bin/cp /home/myshop/myshopp/public/favicon.ico $DEPLOYPATH
+  - /bin/cp /home/myshop/myshopp/public/mix-manifest.json $DEPLOYPATH
+  - /bin/cp /home/myshop/myshopp/public/robots.txt $DEPLOYPATH
+  - /bin/cp /home/myshop/myshopp/public/web.config $DEPLOYPATH

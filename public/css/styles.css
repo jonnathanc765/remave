@@ -1,0 +1,61 @@
+body{
+  font-family: 'Mukta', sans-serif!important;
+  background: #f2f1ef!important;
+}
+
+.carousel-promociones{
+  max-height: 250px!important;
+  border-radius: 30px;
+}
+
+.carousel-control-prev span, .carousel-control-next span{
+  color: red;
+}
+
+a.carousel-control-next,a.carousel-control-prev{
+  border: 1px solid red;
+  height: 20px;
+}
+
+.carousel-indicators li {
+  width: 10px!important;
+  height: 10px!important;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.carousel-indicators .active{
+    background: black!important;
+}
+
+.carousel-indicators{
+    
+    bottom: 0!important;
+    top: 100%;
+}
+
+.productos-buscados{
+    font-size: 20px;
+
+}
+.productos-buscados li{
+  display: inline-block;
+  margin-right: 25px;
+  background: #fff;
+  padding: 5px;
+}
+
+.categoria{
+    margin: 5px;
+}
+.categoria img{
+    max-width: 190px;
+}
+
+.btn-volver {
+  border-radius: 3px;
+  border: 1px solid #6c757d;
+  -webkit-appearance: none !important;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+.nav-container {
+  width: 100%;
+  border-bottom: 1px solid #d9dee4;
+  background-color: #ededed;
+  height: 55px;
+  display: inline-block;
+  position: absolute;
+}
+.nav-container a {
+  font-size: 20px;
+}
+.nav-container .mensajes-usuario {
+  float: right;
+}
+.nav-container div {
+  display: inline-block;
+}
+.nav-container .opciones-usuario {
+  width: 100%;
+}
+.nav-container .opciones-usuario .dropdown-usuario .imagen-usuario {
+  max-width: 28px;
+  display: inline-block;
+}
+.nav-container .opciones-usuario .dropdown-usuario .imagen-usuario img {
+  width: 100%;
+  border-radius: 100%;
+}
+.nav-container .opciones-usuario .dropdown-usuario p {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=nav.css.map */

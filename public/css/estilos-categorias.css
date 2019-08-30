@@ -1,0 +1,81 @@
+.card-body p {
+  font-weight: normal;
+}
+.card-body p span {
+  font-weight: bold;
+}
+
+.card-header h2 .btn-link {
+  color: #2a3f54 !important;
+}
+.card-header h2 .btn-link:hover {
+  color: #5890c7 !important;
+}
+
+.boton {
+  color: #E7E7E7 !important;
+  background-color: #2a3f54 !important;
+  border-color: #2a3f54 !important;
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.3s;
+}
+.boton:hover {
+  border-color: #E7E7E7 !important;
+  background-color: #E7E7E7 !important;
+  color: #2a3f54 !important;
+}
+.boton:focus {
+  box-shadow: 0 0 0 0 !important;
+}
+
+.page-link {
+  color: #2a3f54 !important;
+}
+
+.page-item.active .page-link {
+  background: #2a3f54 !important;
+  color: #E7E7E7 !important;
+  border-color: #2a3f54 !important;
+}
+
+.opciones-categoria {
+  width: 100%;
+}
+.opciones-categoria a span, .opciones-categoria button span {
+  display: block;
+}
+.opciones-categoria a i, .opciones-categoria button i {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) {
+  .opciones-categoria {
+    padding-left: 128px;
+  }
+  .opciones-categoria a, .opciones-categoria button {
+    font-size: 13px;
+    height: 26px;
+    width: 192px;
+    display: inline-block;
+  }
+  .opciones-categoria a span, .opciones-categoria button span {
+    display: none;
+  }
+  .opciones-categoria a i, .opciones-categoria button i {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .opciones-categoria a, .opciones-categoria button {
+    font-size: 13px;
+    height: 35px;
+  }
+  .opciones-categoria a span, .opciones-categoria button span {
+    display: block;
+  }
+  .opciones-categoria a i, .opciones-categoria button i {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos-categorias.css.map */

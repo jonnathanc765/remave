@@ -21,7 +21,7 @@
         </div>
         <div class="card-body p-0">
             <div class="table-responsive">
-                <table id="example" class="table">
+                 <table id="datatable" class="table datatable">
                     <thead class="bg-light">
                         <tr class="border-0">
                             <th class="border-0">#</th>
@@ -81,3 +81,4 @@
     </div>
 </div>
 @endsection
+@include('parts.datatables')

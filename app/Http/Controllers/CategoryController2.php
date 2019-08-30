@@ -16,7 +16,7 @@ class CategoryController2 extends Controller
      */
     public function index()
     {
-        $categories = Category::with('subCategories')->paginate(10);
+        $categories = Category::all();
         return view('new_dashboard.admin.categories.index', compact('categories'));
     }
 

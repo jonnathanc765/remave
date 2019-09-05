@@ -11,27 +11,14 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <input type="hidden" :name="'ID_code_' + index" value="">
-                    <label :for="'ID_color_' + index" class="col-form-label label_color">Color:</label>
+                    <label :for="'ID_color_' + index" class="col-form-label label_color">Marcas:</label>
                     <div class="input-group mb-3">
                         <select class="form-control" :name="'ID_color_' + index" :id="'ID_color_' + index">
                             <option :value="color" v-for="(color, i) of colors" :key="i">{{ color }}</option>
                         </select>
                     </div>
                 </div>
-                <div class="form-group col-md-6">
-                    <label class="label_size col-form-label" :for="'ID_size_' + index">Tamaño</label>
-                    <div class="input-group mb-3">
-                        <input type="text" :name="'ID_size_' + index" class="form-control input_size" :id="'ID_size_' + index" value="">
-                        <div class="input-group-append be-addon">
-                            <select :name="'ID_size_type_' + index" class="form-control select_size_type" :id="'ID_size_type_' + index" v-model="size_type">
-                                <option value="type" disabled>Tipo</option>
-                                <option value="GB">GB</option>
-                                <option value="Talla">Talla</option>
-                                <option value="Capacidad">Capacidad</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
+              
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -94,19 +81,19 @@ export default {
                 url: []
             }],
             colors: [
-                'Azul',
-                'Rojo',
-                'Verde',
-                'Amarillo',
-                'Blanco',
-                'Negro',
-                'Morado',
-                'Rosa',
-                'Naranja',
-                'Gris',
+                'Mocar',
+                'Toyota',
+                'Chery',
+                'GM Genuine',
+                'Acdelco',
+                'Mitsuba',
+                'Filko',
+                'Bosch',
+                'Vortex',
+                'Mamusa',
                 'Dorado',
-                'Plateado',
-                'Marrón'
+                'Vulko',
+                'Otros'
             ]
         }
     },

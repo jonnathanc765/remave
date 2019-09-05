@@ -85,13 +85,13 @@ Editando producto
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <input type="hidden" name="ID_code_{{ $loop->index }}" value="{{ $product->code }}">
-                                <label for="ID_color_{{ $loop->index }}" class="col-form-label label_color">Color:</label>
+                                <label for="ID_color_{{ $loop->index }}" class="col-form-label label_color">Marca:</label>
                                 <div class="input-group mb-3">
                                     <input type="text" name="ID_color_{{ $loop->index }}" id="ID_color_{{ $loop->index }}"
                                         class="form-control input_color" placeholder="" value="{{ $product->color }}">
                                 </div>
                             </div>
-                            <div class="form-group col-md-6">
+                           {{-- <div class="form-group col-md-6">
                                 <label class="label_size col-form-label" for="ID_size_{{ $loop->index }}">Tamaño</label>
                                 <div class="input-group mb-3">
                                     <input type="text" name="ID_size_{{ $loop->index }}" class="form-control input_size" id="ID_size_{{ $loop->index }}" value="{{ $product->size }}">
@@ -104,7 +104,7 @@ Editando producto
                                         </select>
                                     </div>
                                 </div>
-                            </div>
+                            </div>--}}
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">

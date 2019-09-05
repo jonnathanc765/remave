@@ -300,7 +300,7 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Adrian\ecommerce-ar\resources\js\dashboard\dashboard-sales.js */"./resources/js/dashboard/dashboard-sales.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\remaveca-ecommerce\resources\js\dashboard\dashboard-sales.js */"./resources/js/dashboard/dashboard-sales.js");
 
 
 /***/ })

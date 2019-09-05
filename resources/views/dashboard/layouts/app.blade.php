@@ -88,12 +88,12 @@
                     <li class="@yield('client')">
                         <a href="{{ route('dashboard.client') }}"><i class="far fa-chart-bar"></i>Dashboard</a>
                     </li>
-                    {{--    @if (!Auth::user()->hasShop(Auth::user()->id))
+                        @if (!Auth::user()->hasShop(Auth::user()->id))
                             <li class="@yield('datos.client')">
                                 <a href="{{ route('dashboard.client.info') }}"><i class="fab fa-wpforms"></i>Hazte Proveedor</a>
                             </li>
                         @endif
-                    @endif --}}
+                    @endif 
 
                     {{-- Aqui comienza las opciones de un proveedor, solo el usuario que tenga el role => provider prodra ver estas vistas --}}
                     @role('provider')

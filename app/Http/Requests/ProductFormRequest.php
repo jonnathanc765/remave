@@ -40,7 +40,7 @@ class ProductFormRequest extends FormRequest
         for ($i=0; $i < ($request->quantity); $i++) {
 
             $data['ID_color_' . $i]      = 'required';
-            $data['ID_size_' . $i]       = 'required';
+           // $data['ID_size_' . $i]       = 'required';
             $data['ID_price_' . $i]      = 'required';
             $data['ID_photo_' . $i]      = '';
         }     

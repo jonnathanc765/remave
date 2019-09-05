@@ -21,10 +21,10 @@
                 </li>
                 <li>
                     {{-- Boton del carrito --}}
-                    <a class="btn btn-primary" href="{{ route('cart.store', $product->code) }}" role="button"
+                    {{--<a class="btn btn-primary" href="{{ route('cart.store', $product->code) }}" role="button"
                         onclick="event.preventDefault(); document.getElementById('cart.store{{ $product->code }}').submit();">
                         <i class="ti-shopping-cart"></i>
-                    </a>
+                    </a>--}}
                     {{-- Formulario para enviar un producto al carrito --}}
                     <form id="cart.store{{ $product->code }}" action="{{ route('cart.store', $product->code) }}"
                         method="POST" style="display: none;">

@@ -30,7 +30,7 @@
             </a>
         </h4>
         <p class="card-product__price">
-            ARS {{ $product->price() }}
+            $ {{ $product->price() }}
         </p>
     </div>
 </div>

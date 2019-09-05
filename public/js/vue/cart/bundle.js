@@ -1914,6 +1914,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     cart: '',
@@ -16906,7 +16907,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Adrian\ecommerce-ar\resources\js\vue\cart\bundle.js */"./resources/js/vue/cart/bundle.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\remaveca-ecommerce\resources\js\vue\cart\bundle.js */"./resources/js/vue/cart/bundle.js");
 
 
 /***/ })

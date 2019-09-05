@@ -177,7 +177,7 @@
                             Dashboard
                         </a>
                     </li>
-                    {{-- <li class="nax-item @yield('shop')">
+                     {{--<li class="nax-item @yield('shop')">
                         <a href="{{ route('shops.create') }}" class="nav-link @yield('shop')">
                             <i class="fas fa-store"></i>
                             Registra tu tienda

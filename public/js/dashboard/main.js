@@ -205,7 +205,7 @@ jQuery(document).ready(function ($) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Adrian\ecommerce-ar\resources\js\dashboard\main.js */"./resources/js/dashboard/main.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\remaveca-ecommerce\resources\js\dashboard\main.js */"./resources/js/dashboard/main.js");
 
 
 /***/ })

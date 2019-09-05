@@ -235,7 +235,7 @@ class ProductController extends Controller
                     'post_id'       =>  $post->id,
                     'name'          => $request->input('productName'),
                     'description'   => $request->input('productDescription'),
-                    'stock'        => $request->input('product_stock'),
+                    'quantity'        => $request->input('product_quantity'),
                     'size'          => $request->input('ID_size_' . $i),
                     'color'         => $request->input('ID_color_' . $i),
                     'sub_category_id' => $request->input('sub_category_id'),
@@ -251,7 +251,7 @@ class ProductController extends Controller
                     foreach ($files as $file) {
                         $path  = $file->store('public/products');
                         $path = str_replace('public/', '', $path);
-                        dd($path);
+                       // dd($path);
                         ProductImage::create([
                             'product_id' => $product->id,
                             'path'       => $path,

@@ -44,7 +44,7 @@ active
                             <h3 class="mb-0 text-primary">Detalles Registrados: {{ $post->totalProducts() }}</h3>
                         </div>
                         <div class="product-colors border-bottom">
-                            <h4>Colores Disponibles</h4>
+                            <h4>Marcas</h4>
 
                             @forelse ($post->products as $product)
                             <input type="radio" class="radio" id="radio-1" name="group" />
@@ -55,7 +55,7 @@ active
                             
                             
                         </div>
-                        <div class="product-size border-bottom">
+                        {{--<div class="product-size border-bottom">
                             <h4>Tamaños Disponibles</h4>
                             <div class="btn-group" role="group" aria-label="First group">
                                 @forelse ($post->products as $product)
@@ -65,7 +65,7 @@ active
                                 @endforelse
                             </div>
                             
-                        </div>
+                        </div>--}}
                         <div class="product-description">
                             <h4 class="mb-1">Descripción</h4>
                             <p>{{ $post->products->first()->description }}</p>
@@ -95,9 +95,9 @@ active
                                             <div class="card">
                                                 <img class="img-fluid" src="{{ Storage::url($product->images->first()->path) }}" alt="Card image cap">
                                                 <div class="card-body">
-                                                    <p class="card-text">Color: {{ $product->color }}</p>
-                                                    <p class="card-text">Tamaño: {{ $product->size }} {{ $product->size_type }}</p>
-                                                    <p class="text-muted">{{ $product->created_at->format('d M, Y') }}</p>
+                                                    <p class="card-text">Marca: {{ $product->color }}</p>
+                                                    {{--<p class="card-text">Tamaño: {{ $product->size }} {{ $product->size_type }}</p>
+                                                    <p class="text-muted">{{ $product->created_at->format('d M, Y') }}</p>--}}
                                                 </div>
                                             </div>
                                         </div>

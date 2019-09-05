@@ -1,4 +1,4 @@
-{{--@extends('new_dashboard.layouts.app')
+@extends('new_dashboard.layouts.app')
 
 @section('title')
 Registra tu Tienda
@@ -133,4 +133,4 @@ active
 </script>
 
 
-@endsection --}}
+@endsection 

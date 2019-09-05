@@ -233,9 +233,9 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\Adrian\ecommerce-ar\resources\js\main.js */"./resources/js/main.js");
-__webpack_require__(/*! C:\xampp\htdocs\Adrian\ecommerce-ar\resources\sass\dashboard.scss */"./resources/sass/dashboard.scss");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Adrian\ecommerce-ar\resources\sass\style.scss */"./resources/sass/style.scss");
+__webpack_require__(/*! C:\laragon\www\remaveca-ecommerce\resources\js\main.js */"./resources/js/main.js");
+__webpack_require__(/*! C:\laragon\www\remaveca-ecommerce\resources\sass\dashboard.scss */"./resources/sass/dashboard.scss");
+module.exports = __webpack_require__(/*! C:\laragon\www\remaveca-ecommerce\resources\sass\style.scss */"./resources/sass/style.scss");
 
 
 /***/ })

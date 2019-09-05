@@ -68,7 +68,7 @@
                     {{-- Solo un color --}}
                     <div class="row">
                         <div class="col-md-12">
-                            <p>Color: {{ $product->color }}</p>
+                            {{--<p>Marca: {{ $product->color }}</p>--}}
                         </div>
 
 
@@ -78,7 +78,7 @@
                     @if (!$data->equalSize)
                     <div class="col-12 col-md-5 d-block d-md-inline-block mt-5 mt-md-0">
                         {{-- Diferentes Tamaños --}}
-                        <p>Tamaño Actual: {{ $product->size }} {{ $product->size_type }}</p>
+                        {{--<p>Tamaño Actual: {{ $product->size }} {{ $product->size_type }}</p>
                         <div class="col-md-12">
                             <h3>{{ $product->size_type }}</h3>
                             <select class="form-control" id="size-select">
@@ -88,13 +88,13 @@
                                     {{ $product->size_type }}</option>
                                 @endforeach
                             </select>
-                        </div>
+                        </div>--}}
                     </div>
                     @else
                     {{-- Solo un tamaño --}}
                     <div class="row">
                         <div class="col-md-12">
-                            <p>Tamaño: {{ $product->size }} {{ $product->size_type }}</p>
+                            {{--<p>{{ $product->size }} {{ $product->size_type }}</p>--}}
                         </div>
                     </div>
                     @endif
@@ -192,27 +192,27 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <h5>Color</h5>
+                                    <h5>Marca</h5>
                                 </td>
                                 <td>
                                     <h5>{{ $product->color }}</h5>
                                 </td>
                             </tr>
-                            <tr>
+                            {{--<tr>
                                 <td>
                                     <h5>Tamaño</h5>
                                 </td>
                                 <td>
                                     <h5>{{ $product->size }} {{ $product->size_type }}</h5>
                                 </td>
-                            </tr>
+                            </tr>--}}
                             <tr>
                                 <td>
                                     <h5>Precio</h5>
                                 </td>
                                 <td>
                                     <h5>
-                                          {{ $product->price() }}
+                                          ${{ $product->price() }}
                                     </h5>
                                 </td>
                             </tr>

@@ -165,19 +165,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   // Lugar donde se declaran las variables a usar en la instacia de vue
   data: function data() {
@@ -186,7 +173,7 @@ __webpack_require__.r(__webpack_exports__);
       products: [{
         url: []
       }],
-      colors: ['Azul', 'Rojo', 'Verde', 'Amarillo', 'Blanco', 'Negro', 'Morado', 'Rosa', 'Naranja', 'Gris', 'Dorado', 'Plateado', 'Marrón']
+      colors: ['Mocar', 'Toyota', 'Chery', 'GM Genuine', 'Acdelco', 'Mitsuba', 'Filko', 'Bosch', 'Vortex', 'Mamusa', 'Dorado', 'Vulko', 'Otros']
     };
   },
   props: {
@@ -260,7 +247,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n\r\n/* Aqui van todos los estilos */\ndiv[id^=thumb-output]{\r\n    margin-bottom: 15px;\n}\ndiv[id^=thumb-output] div{\r\n\r\n    display: inline-block;\r\n    position: relative;\r\n    margin-right: 10px;\r\n    margin-bottom: 10px;\n}\n@media screen and (max-width:768px) {\n.btn-save {\r\n    position:absolute; \r\n    right:-7px; \r\n    bottom:-53px;\n}\n}\n@media screen and (min-width:769px) {\n.btn-save {\r\n    position:relative; \r\n    left: 0;\r\n    top:15px;\n}\n}\r\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n\r\n/* Aqui van todos los estilos */\ndiv[id^=thumb-output]{\r\n    margin-bottom: 15px;\n}\ndiv[id^=thumb-output] div{\r\n\r\n    display: inline-block;\r\n    position: relative;\r\n    margin-right: 10px;\r\n    margin-bottom: 10px;\n}\n@media screen and (max-width:768px) {\n.btn-save {\r\n    position:absolute; \r\n    right:-7px; \r\n    bottom:-53px;\n}\n}\n@media screen and (min-width:769px) {\n.btn-save {\r\n    position:relative; \r\n    left: 0;\r\n    top:15px;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -1414,7 +1401,7 @@ var render = function() {
                   staticClass: "col-form-label label_color",
                   attrs: { for: "ID_color_" + index }
                 },
-                [_vm._v("Color:")]
+                [_vm._v("Marcas:")]
               ),
               _vm._v(" "),
               _c("div", { staticClass: "input-group mb-3" }, [
@@ -1436,80 +1423,6 @@ var render = function() {
                   }),
                   0
                 )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-6" }, [
-              _c(
-                "label",
-                {
-                  staticClass: "label_size col-form-label",
-                  attrs: { for: "ID_size_" + index }
-                },
-                [_vm._v("Tamaño")]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "input-group mb-3" }, [
-                _c("input", {
-                  staticClass: "form-control input_size",
-                  attrs: {
-                    type: "text",
-                    name: "ID_size_" + index,
-                    id: "ID_size_" + index,
-                    value: ""
-                  }
-                }),
-                _vm._v(" "),
-                _c("div", { staticClass: "input-group-append be-addon" }, [
-                  _c(
-                    "select",
-                    {
-                      directives: [
-                        {
-                          name: "model",
-                          rawName: "v-model",
-                          value: _vm.size_type,
-                          expression: "size_type"
-                        }
-                      ],
-                      staticClass: "form-control select_size_type",
-                      attrs: {
-                        name: "ID_size_type_" + index,
-                        id: "ID_size_type_" + index
-                      },
-                      on: {
-                        change: function($event) {
-                          var $$selectedVal = Array.prototype.filter
-                            .call($event.target.options, function(o) {
-                              return o.selected
-                            })
-                            .map(function(o) {
-                              var val = "_value" in o ? o._value : o.value
-                              return val
-                            })
-                          _vm.size_type = $event.target.multiple
-                            ? $$selectedVal
-                            : $$selectedVal[0]
-                        }
-                      }
-                    },
-                    [
-                      _c("option", { attrs: { value: "type", disabled: "" } }, [
-                        _vm._v("Tipo")
-                      ]),
-                      _vm._v(" "),
-                      _c("option", { attrs: { value: "GB" } }, [_vm._v("GB")]),
-                      _vm._v(" "),
-                      _c("option", { attrs: { value: "Talla" } }, [
-                        _vm._v("Talla")
-                      ]),
-                      _vm._v(" "),
-                      _c("option", { attrs: { value: "Capacidad" } }, [
-                        _vm._v("Capacidad")
-                      ])
-                    ]
-                  )
-                ])
               ])
             ])
           ]),
@@ -13849,7 +13762,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Adrian\ecommerce-ar\resources\js\vue\product\bundle.js */"./resources/js/vue/product/bundle.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\remaveca-ecommerce\resources\js\vue\product\bundle.js */"./resources/js/vue/product/bundle.js");
 
 
 /***/ })

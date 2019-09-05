@@ -84,11 +84,11 @@ active
     <div class="container-fluid position-relative">
 
         <img src="{{ Storage::url($data["centralLowBanner"]->path) }}" style="width:100%;height:100%;">
-        <a class="button button--active mt-3 mt-xl-4"
+       {{-- <a class="button button--active mt-3 mt-xl-4"
             href="{{ route('shop.show',$data["centralLowBanner"]->shop->id) }}"
             style="position:absolute;right:12px;bottom:6px;">
             Compra Ahora
-        </a>
+        </a>--}}
 </section>
 @endif
 

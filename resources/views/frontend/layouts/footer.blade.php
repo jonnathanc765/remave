@@ -23,9 +23,9 @@
                             <li><a href="{{ route('contact') }}">Contacto</a></li>
                             <li><a href="{{ route('faqs') }}">Preguntas Frecuentes</a></li>
                             {{--
-                                <li><a href="{{ route('how-add') }}">Registrar un Producto</a></li>--}}
                             <li><a href="{{ route('how-buy') }}">Como Comprar</a></li>
                             <li><a href="{{ route('shipping') }}">Envíos</a></li>
+                                <li><a href="{{ route('how-add') }}">Registrar un Producto</a></li>--}}
                             {{--<li><a href="{{ route('terms') }}">Términos y condiciones</a></li>--}}
                             {{--<li><a href="{{ route('forbidden') }}">Articulos Prohibidos</a></li>--}}
                         </ul>

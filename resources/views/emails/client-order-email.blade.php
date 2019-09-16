@@ -72,7 +72,7 @@
                                                     <th scope="col">#</th>
                                                     <th scope="col">Imagen</th>
                                                     <th scope="col">Nombre</th>
-                                                    <th scope="col">Color</th>
+                                                    <th scope="col">Marca</th>
                                                     <th scope="col">Cantidad</th>
                                                     <th scope="col">Precio U.</th>
                                                     <th scope="col">Precio T.</th>

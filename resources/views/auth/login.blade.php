@@ -14,8 +14,8 @@ Iniciar Sesión
             <div class="col-lg-6">
                 <div class="login_box_img">
                     <div class="hover">
-                        <h4>¿Nuevo en nuestro sitio?</h4>
-                        <p>Todos los días trabajamos para llevarte el mejor de los servicios, por ello, te  invitamos a crear una cuenta en el sitio y conocer de los servicios que podemos ofrecerte.</p>
+                        <h4>¿Eres Nuevo en Nuestra Tienda?</h4>
+                        <p>Todos los días trabajamos para llevarte el mejor servicio en el mercado repuestero, por ello, te  invitamos a crear una cuenta en el sitio y conocer todos los productos que podemos ofrecerte.</p>
                         <a class="button button-account" href="{{ route('register') }}">Crear una cuenta</a>
                     </div>
                 </div>

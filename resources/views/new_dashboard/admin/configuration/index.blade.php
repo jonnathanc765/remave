@@ -378,7 +378,7 @@ Configuracion General
                         </div>
 
                         <div class="form-group">
-                            <label for="zone_id">Zona</label>
+                            <label for="zone_id">Municipio</label>
                             <select name="zone_id" id="zone_id" class="form-control">
                                 <option disabled {{ $user->userDetail->zone_id ? '' : 'selected' }}>Seleccione...</option>
                                 @foreach ($zones as $zone)

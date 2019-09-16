@@ -21,8 +21,8 @@ class FaqController extends Controller
     public function store(Request $request)
     {
         $data = $request->validate([
-            'question' => 'required|string|max:1000|min:10',
-            'answer'   => 'required|string|min:10',
+            'question' => 'required|string|max:1000|min:2',
+            'answer'   => 'required|string|min:2',
         ],
             [
                 'question.required' => 'El campo es requerido',
@@ -46,8 +46,8 @@ class FaqController extends Controller
     public function update(Request $request, Faq $faq)
     {
         $data = $request->validate([
-            'question' => 'required|string|max:200|min:20',
-            'answer'   => 'required|string|min:100',
+            'question' => 'required|string|max:200|min:2',
+            'answer'   => 'required|string|min:2',
         ],
             [
                 'question.required' => 'El campo es requerido',

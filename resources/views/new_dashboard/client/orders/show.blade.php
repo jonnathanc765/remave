@@ -72,22 +72,22 @@
                             <tr>
                                 <td colspan="3"></td>
                                 <td>
-                                    <strong class="text-dark">Subtotal</strong>
+                                    <strong class="text-dark">total</strong>
                                 </td>
                                 <td colspan="3" class="right">${{ $order->total }}</td>
                             </tr>
                             <tr>
                                 @if ($order->status == 'pending' && !$order->shipped)
                                 <td colspan="5" class="text-right">
-                                    <a onclick="event.preventDefault(); confirmCancel()"
+                                   {{-- <a onclick="event.preventDefault(); confirmCancel()"
                                         class="btn btn-danger text-white">Eliminar Orden
-                                    </a>
+                                    </a>--}}
 
                                     {{-- Si eligio mercado pago le saldra el boton de pagar --}}
                                     @if ($order->payment_type == 'Mercadopago')
-                                    <a href="{{ route('payment.proceed', $order->code) }}">
+                                    {{--<a href="{{ route('payment.proceed', $order->code) }}">
                                         <button class="btn btn-primary" type="button">Pagar</button>
-                                    </a>
+                                    </a>--}}
                                     @endif
                                 </td>
                                 @endif

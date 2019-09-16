@@ -66,10 +66,13 @@ active
                                 <div class="form-group col-md-4">
                                     <label for="zone_id">Municipio</label>
                                     <select id="zone_id" name="zone_id" class="form-control wide" disabled>
-                                        @foreach ($zones as $zone)
+                                       {{-- @foreach ($zones as $zone)
                                         <option {{ (Auth::user()->userDetail->zone_id == $zone->id) ? 'selected' : '' }}
                                             value="{{ $zone->id }}">{{ $zone->name }}</option>
-                                            @endforeach
+                                            @endforeach--}}
+                                              @foreach ($zones as $zone)
+                                <option {{ $user->userDetail->zone_id == $zone->id ? 'selected' : '' }} value="{{ $zone->id }}">{{ $zone->name }}</option>
+                                @endforeach
                                         </select>
                                     </div>
                                     <div class="form-group col-md-2">

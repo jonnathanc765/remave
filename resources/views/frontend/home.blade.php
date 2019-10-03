@@ -53,11 +53,11 @@ active
     <div class="container-fluid position-relative">
 
         <img src="{{ Storage::url($data["centralHighBanner"]->path) }}" style="width:100%;height:100%;">
-        <a class="button button--active mt-3 mt-xl-4"
+        {{--<a class="button button--active mt-3 mt-xl-4"
             href="{{ route('shop.show',$data["centralHighBanner"]->shop->id) }}"
             style="position:absolute;right:12px;bottom:6px;">
             Compra Ahora
-        </a>
+        </a>--}}
     </div>
 </section>
 <!-- ================ offer section end ================= -->
@@ -65,7 +65,7 @@ active
 
 <!-- ================ Best Selling item  carousel ================= -->
 <section class="section-margin calc-60px">
-    {{--<div class="container">
+    <div class="container">
         <div class="section-intro pb-60px">
             <p>Artículos populares en el sitio.</p>
             <h2><span class="section-intro__style">Mas Vendidos</span></h2>
@@ -73,7 +73,7 @@ active
         <div class="owl-carousel owl-theme s_Product_carousel" id="bestSellerCarousel">
             @each('frontend.parts._best-sellers', $bestSellers, 'product')
         </div>
-    </div>--}}
+    </div>
 </section>
 <!-- ================ Best Selling item  carousel end ================= -->
 

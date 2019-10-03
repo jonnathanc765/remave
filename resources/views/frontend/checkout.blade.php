@@ -131,15 +131,28 @@ active
                                             @endforeach
                                         </ul>
                         
+                        <div class="payment_item">
+                                <div class="radion_btn">
+                                    <input type="radio" id="f-option6" name="payment_type" checked value="mercadopago">
+                                    <label for="f-option6">Pago de contado</label>
+                                    <div class="check"></div>
+                                </div>
+                                <p>Pagar a través de transferecia bancaria.</p>
+                            </div>
+                            <div class="payment_item">
+                                <div class="radion_btn">
+                                    <input type="radio" id="f-option5" name="payment_type" value="vendedor">
+                                    <label for="f-option5">Pago Acordar con Vendedor</label>
+                                    <div class="check"></div>
+                                </div>
+                                <p>Puede contactar y acordar su forma de pago directamente.</p>
+                            </div>
                                 <div class="payment_item">
                                     <div class="radion_btn">
                                         <input type="radio" id="f-option5" name="payment_type" value="vendedor">
-                                        <label for="f-option5">clik aqui para generar orden</label>
-                                        <div class="check"></div>
+                                       
                                         <h2 class="text-center">Cuentas Bancarias</h2>
-                                        <div class="payment_item">
-                                            <div class="radion_btn">
-                                                <input type="radio" id="f-option" name="payment_type" value="vendedor">
+                                       
                                                 <label for="f-option5">Banesco</label>
                                                 
                                             </div>

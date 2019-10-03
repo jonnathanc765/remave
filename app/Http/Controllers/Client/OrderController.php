@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use App\Events\OrderSuccess;
-use App\Http\Controllers\Client\Cart;
+use Gloudemans\Shoppingcart\Facades\Cart;
 
 class OrderController extends Controller
 {
@@ -109,10 +109,4 @@ class OrderController extends Controller
     }
 }
 
-     // reducir stock inicio
-               // $getProductStock = Products::where('sku',$this->generateOrderCode())->first(),
-              //  echo "Original Stock".$getProductStock->stock,
-                //echo "stock reduce".$item->qty,
-               // $newStock= $getProductStock->stock - $item->qty,
-                //roductsAttribute::where('sku',$this->generateOrderCode())->update(['stock'=>$newStock]),
-                //fin
+    

@@ -19,10 +19,10 @@ class Order extends Model
 
     protected $appends = ['total', 'total_products'];
 
-    public function getPaymentTypeAttribute($value)
-    {
-        return $value == 'MERCADOPAGO' ? $value = 'Mercadopago' : $value = 'Acordar con el vendedor';
-    }
+  //  public function getPaymentTypeAttribute($value)
+    //{
+      //  return $value == 'MERCADOPAGO' ? $value = 'Mercadopago' : $value = 'Acordar con el vendedor';
+   // }
 
     public function orderDetails()
     {

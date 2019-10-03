@@ -120,7 +120,7 @@ class BannerController extends Controller
                 $limit->value = 0;
         }
 
-       // return $limit->value;
+        return $limit->value;
     }
 
     public function shop()

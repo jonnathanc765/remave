@@ -60,7 +60,7 @@ class HomeController extends Controller
         $query    = $request->s;
         $products = Product::with('post')
             ->search($query)
-            ->paginate(8);
+            ->paginate(12);
 
         return view('frontend.search')->with(compact('products', 'query'));
     }

@@ -79,9 +79,9 @@
                             <tr>
                                 @if ($order->status == 'pending' && !$order->shipped)
                                 <td colspan="5" class="text-right">
-                                   {{-- <a onclick="event.preventDefault(); confirmCancel()"
+                                    <a onclick="event.preventDefault(); confirmCancel()"
                                         class="btn btn-danger text-white">Eliminar Orden
-                                    </a>--}}
+                                    </a>
 
                                     {{-- Si eligio mercado pago le saldra el boton de pagar --}}
                                     @if ($order->payment_type == 'Mercadopago')

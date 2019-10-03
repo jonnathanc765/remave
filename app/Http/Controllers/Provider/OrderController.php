@@ -97,7 +97,8 @@ class OrderController extends Controller
      */
     public function destroy(Order $order)
     {
-        //
+        
+
     }
     public function cancel(Order $order)
     {

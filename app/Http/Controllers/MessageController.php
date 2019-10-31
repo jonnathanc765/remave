@@ -25,12 +25,12 @@ class MessageController extends Controller
         $unreads = collect([]);
         if ($threads->isNotEmpty()) {
 
-            foreach ($threads as $key => $thread) {
-                if ($key == 1) {
-                    $unreads->push($thread->latestMessage->unreadForUser(Auth::id())->get()->count());
-                }
-            }
-            $messageId = $threads->first()->messages->first()->id;
+            //foreach ($threads as $key => $thread) {
+              //  if ($key == 1) {
+                //    $unreads->push($thread->latestMessage->unreadForUser(Auth::id())->get()->count());
+                //}
+            //}
+           // $messageId = $threads->first()->messages->first()->id;
         }
         return view('new_dashboard.messenger.index', compact('threads', 'unreads'));
     }
